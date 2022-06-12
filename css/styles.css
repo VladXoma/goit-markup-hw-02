@@ -1,0 +1,87 @@
+body {
+  font-family: 'Roboto', 'Inter', 'Open Sans', sans-serif;
+  color: #212121;
+}
+/* основной цвет текста  #212121 */
+/* вторичный цвет текста #757575 */
+/* основной цвет акцента #2196F3 */
+/* цвет ссылок футера color: rgba(255, 255, 255, 0.6); */
+/* белый текст color: #FFFFFF; */
+/* темный фон секций #2F303A */
+
+/* подчеркивание ссылок */
+a {
+  text-decoration: none;
+}
+
+/* маркеры списка */
+ul {
+  list-style: none;
+}
+
+/* шапка */
+/* шапка-логоти */
+.logo,
+.footer-logo {
+  color: #2196f3;
+}
+.logo > .design-logo {
+  color: #000000;
+}
+/* цвет ссылок в шапке */
+.header-contacts {
+  color: #757575;
+}
+.header-links .link {
+  color: inherit;
+}
+/* акцент ссылок в шапке */
+.header-links a:hover,
+.header-links a:focus {
+  color: #2196f3;
+}
+.header a:hover,
+.header a:focus {
+  color: #2196f3;
+}
+
+/* герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title,
+.peculiarities-title {
+  text-transform: uppercase;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-botton {
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 188%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.footer > .footer-contacts:hover,
+.footer > .footer-contacts:focus {
+  color: #2196f3;
+}
+
+.footer-logo .design-logo {
+  color: #ffffff;
+}
